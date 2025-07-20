@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="form-container">
         <h1>Registration Form</h1>
         <div className="form">
           <div className="form-field">
@@ -37,7 +37,7 @@ function App() {
             <wired-button>Cancel</wired-button>
           </div>
         </div>
-      </header>
+      </div>
     </div>
   );
 }
