@@ -9,7 +9,11 @@ const PORT = 5000;
 const usersFilePath = path.join(__dirname, 'users.json');
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: 'http://localhost:3000',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true,
+}));
 app.use(express.json());
 
 // Helper function to read users from JSON file
