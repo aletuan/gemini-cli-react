@@ -8,6 +8,9 @@ This is a React application demonstrating a registration form using Wired Elemen
 - Wired Elements (v3.0.0-rc.6)
 - React Testing Library
 - Jest
+- Node.js (for backend)
+- Express.js (for backend API)
+- JSON file (simulated database)
 
 ## Project Structure
 - `src/`: Contains all source code.
