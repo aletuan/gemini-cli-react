@@ -1,7 +1,7 @@
 # Project: gemini-cli-react
 
 ## Overview
-This is a React application demonstrating a registration form using Wired Elements for a cartoon-style UI.
+This is a React application demonstrating a registration form using Wired Elements for a cartoon-style UI. It allows users to enter and submit information, which will be saved in a database. An admin view page will display a list of registered users, with the ability to click on an item to view detailed user information.
 
 ## Key Technologies
 - React (v19.1.0)
