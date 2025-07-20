@@ -33,3 +33,4 @@ This is a React application demonstrating a registration form using Wired Elemen
 - Unit tests are written using React Testing Library and Jest.
 - Tests are located in files named `*.test.js` alongside the components they test.
 - Focus on testing user interactions and component rendering.
+- **Always implement unit tests with new code to ensure adequate test coverage.**
